@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import CryptoDashboard from './components/crypto/CryptoDashboard'
+import TodoApp from './components/todo/TodoApp'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/crypto-dashboard" element={<CryptoDashboard />} />
+        <Route path="/todo-app" element={<TodoApp />} />
       </Routes>
     </Router>
   )
@@ -189,17 +191,31 @@ function HomePage() {
               </div>
             </div>
 
-            {/* Projeto 2 - Placeholder */}
+            {/* Gerenciador de Tarefas */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-              <div className="h-40 sm:h-48 bg-gradient-to-r from-blue-400 to-purple-500"></div>
+              <div className="h-40 sm:h-48 bg-gradient-to-r from-blue-400 to-purple-500 flex items-center justify-center">
+                <div className="text-white text-4xl">✓</div>
+              </div>
               <div className="p-4 sm:p-6">
-                <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">Projeto 2</h3>
+                <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">Gerenciador de Tarefas</h3>
                 <p className="text-sm sm:text-base text-gray-600 mb-4">
-                  Projeto desenvolvido por Fabio Ferreira utilizando tecnologias modernas e boas práticas de desenvolvimento.
+                  Aplicação completa para gerenciar tarefas com filtros, categorias, prioridades e persistência local.
                 </p>
                 <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
-                  <button className="text-blue-600 hover:text-blue-800 font-semibold transition-colors text-sm sm:text-base">Ver Demo</button>
-                  <button className="text-gray-600 hover:text-gray-800 font-semibold transition-colors text-sm sm:text-base">Código</button>
+                  <Link 
+                    to="/todo-app"
+                    className="text-blue-600 hover:text-blue-800 font-semibold transition-colors text-sm sm:text-base"
+                  >
+                    Ver Demo
+                  </Link>
+                  <a 
+                    href="https://github.com/fabioferreira/todo-app" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-gray-600 hover:text-gray-800 font-semibold transition-colors text-sm sm:text-base"
+                  >
+                    Código
+                  </a>
                 </div>
               </div>
             </div>
