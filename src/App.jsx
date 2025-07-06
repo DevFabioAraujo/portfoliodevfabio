@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import CryptoDashboard from './components/crypto/CryptoDashboard'
 import TodoApp from './components/todo/TodoApp'
 import CalculatorApp from './components/calculator/CalculatorApp'
+import BlogApp from './components/blog/BlogApp'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/crypto-dashboard" element={<CryptoDashboard />} />
         <Route path="/todo-app" element={<TodoApp />} />
         <Route path="/calculator" element={<CalculatorApp />} />
+        <Route path="/blog" element={<BlogApp />} />
       </Routes>
     </Router>
   )
@@ -163,7 +165,7 @@ function HomePage() {
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">Meus Projetos</h2>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6 sm:gap-8">
             {/* Dashboard de Criptomoedas */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
               <div className="h-40 sm:h-48 bg-gradient-to-r from-yellow-400 to-orange-500 flex items-center justify-center">
@@ -241,6 +243,35 @@ function HomePage() {
                   </Link>
                   <a 
                     href="https://github.com/fabioferreira/calculator" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-gray-600 hover:text-gray-800 font-semibold transition-colors text-sm sm:text-base"
+                  >
+                    Código
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Blog TI */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="h-40 sm:h-48 bg-gradient-to-r from-green-500 to-teal-500 flex items-center justify-center">
+                <div className="text-white text-4xl">📝</div>
+              </div>
+              <div className="p-4 sm:p-6">
+                <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">Blog TI</h3>
+                <p className="text-sm sm:text-base text-gray-600 mb-4">
+                  Blog completo sobre tecnologia com artigos sobre desenvolvimento, tendências e tutoriais práticos para desenvolvedores.
+                </p>
+                <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
+                  <Link 
+                    to="/blog"
+                    className="text-blue-600 hover:text-blue-800 font-semibold transition-colors text-sm sm:text-base"
+                  >
+                    Ver Demo
+                  </Link>
+                  <a 
+                    href="https://github.com/fabioferreira/blog" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-gray-600 hover:text-gray-800 font-semibold transition-colors text-sm sm:text-base"

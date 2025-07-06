@@ -45,6 +45,20 @@ Portfólio pessoal desenvolvido por Fabio Ferreira de Araujo, showcasing projeto
 - 🎨 **Interface moderna** - Design glassmorphism com gradientes
 - 📱 **Layout responsivo** - Funciona perfeitamente em desktop e mobile
 
+### 4. Blog TI
+- 📝 **Sistema de artigos completo** - Criação, visualização e navegação de posts
+- 🔍 **Busca avançada** - Pesquisa por título, conteúdo, tags e categorias
+- 🏷️ **Sistema de categorias** - Frontend, Backend, DevOps, Mobile, AI/ML, Web3, etc.
+- 📊 **Filtros inteligentes** - Combinação de busca textual e filtros por categoria
+- 📖 **Visualização de artigos** - Layout otimizado para leitura com syntax highlighting
+- 👤 **Perfil do autor** - Informações e bio do desenvolvedor
+- 📈 **Estatísticas** - Contadores de artigos, visualizações e métricas
+- 🔗 **Compartilhamento social** - Funcionalidade de compartilhar artigos
+- 📱 **Design responsivo** - Interface adaptável para todos os dispositivos
+- 🎨 **UI moderna** - Design clean com gradientes e componentes elegantes
+- 📧 **Newsletter** - Sistema de inscrição para receber atualizações
+- 🏆 **Ranking de popularidade** - Artigos mais visualizados e recentes
+
 ## 🛠️ Como Executar
 
 1. Clone o repositório:
@@ -86,15 +100,21 @@ portfolio/
 │   │   │   ├── TodoItem.jsx
 │   │   │   ├── TodoForm.jsx
 │   │   │   └── TodoFilters.jsx
-│   │   └── calculator/
-│   │       ├── CalculatorApp.jsx
-│   │       ├── CalculatorDisplay.jsx
-│   │       ├── CalculatorButtons.jsx
-│   │       └── CalculatorHistory.jsx
+│   │   ├── calculator/
+│   │   │   ├── CalculatorApp.jsx
+│   │   │   ├── CalculatorDisplay.jsx
+│   │   │   ├── CalculatorButtons.jsx
+│   │   │   └── CalculatorHistory.jsx
+│   │   └── blog/
+│   │       ├── BlogApp.jsx
+│   │       ├── BlogPost.jsx
+│   │       ├── BlogSidebar.jsx
+│   │       └── BlogCategories.jsx
 │   ├── hooks/
 │   │   ├── useCrypto.js
 │   │   ├── useTodos.js
-│   │   └── useCalculator.js
+│   │   ├── useCalculator.js
+│   │   └── useBlog.js
 │   ├── services/
 │   │   ├── cryptoAPI.js
 │   │   └── todoService.js
@@ -141,6 +161,18 @@ portfolio/
 - ✅ **Histórico completo** - Registro de todos os cálculos
 - ✅ **Interface moderna** - Design glassmorphism com gradientes
 - ✅ **Responsividade total** - Funciona em desktop e mobile
+
+### Blog TI
+- ✅ **Sistema completo de blog** - Navegação, listagem e visualização de artigos
+- ✅ **Busca inteligente** - Pesquisa por título, conteúdo e tags
+- ✅ **Filtros por categoria** - 10 categorias técnicas organizadas
+- ✅ **Artigos técnicos** - Conteúdo sobre React, Node.js, Docker, AI/ML, Web3
+- ✅ **Syntax highlighting** - Código formatado com destaque de sintaxe
+- ✅ **Sistema de tags** - Organização e descoberta de conteúdo
+- ✅ **Sidebar informativa** - Artigos recentes, populares e estatísticas
+- ✅ **Compartilhamento social** - Funcionalidade de compartilhar posts
+- ✅ **Design responsivo** - Interface otimizada para todos os dispositivos
+- ✅ **Newsletter integrada** - Sistema de inscrição para atualizações
 
 ## 📞 Contato
 
