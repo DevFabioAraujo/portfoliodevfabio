@@ -5,6 +5,7 @@ import TodoApp from './components/todo/TodoApp'
 import CalculatorApp from './components/calculator/CalculatorApp'
 import BlogApp from './components/blog/BlogApp'
 import EcommerceApp from './components/ecommerce/EcommerceApp'
+import BurgerApp from './components/burger/BurgerApp'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/calculator" element={<CalculatorApp />} />
         <Route path="/blog" element={<BlogApp />} />
         <Route path="/ecommerce" element={<EcommerceApp />} />
+        <Route path="/burger" element={<BurgerApp />} />
       </Routes>
     </Router>
   )
@@ -303,6 +305,35 @@ function HomePage() {
                   </Link>
                   <a 
                     href="https://github.com/fabioferreira/ecommerce" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-gray-600 hover:text-gray-800 font-semibold transition-colors text-sm sm:text-base"
+                  >
+                    Código
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* BurgerHub */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="h-40 sm:h-48 bg-gradient-to-r from-orange-500 to-red-500 flex items-center justify-center">
+                <div className="text-white text-4xl">🍔</div>
+              </div>
+              <div className="p-4 sm:p-6">
+                <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">BurgerHub</h3>
+                <p className="text-sm sm:text-base text-gray-600 mb-4">
+                  Sistema completo de hamburgueria com customização de hambúrgueres, carrinho, pedidos, programa de fidelidade e rastreamento em tempo real.
+                </p>
+                <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
+                  <Link 
+                    to="/burger"
+                    className="text-blue-600 hover:text-blue-800 font-semibold transition-colors text-sm sm:text-base"
+                  >
+                    Ver Demo
+                  </Link>
+                  <a 
+                    href="https://github.com/fabioferreira/burgerhub" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-gray-600 hover:text-gray-800 font-semibold transition-colors text-sm sm:text-base"

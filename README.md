@@ -76,6 +76,23 @@ Portfólio pessoal desenvolvido por Fabio Ferreira de Araujo, showcasing projeto
 - 📈 **Badges dinâmicos** - "Novo", descontos, últimas unidades
 - 🎨 **UX moderna** - Transições suaves e feedback visual
 
+### 6. BurgerHub - Sistema de Hamburgueria Completo
+- 🍔 **Menu digital interativo** - Cardápio completo com categorias e filtros avançados
+- 🎨 **Customização de hambúrgueres** - Builder interativo para personalizar ingredientes
+- 🛒 **Sistema de pedidos** - Carrinho inteligente com cálculo automático de preços
+- ⭐ **Programa de fidelidade** - Sistema de pontos com níveis Bronze, Silver, Gold e Platinum
+- 📱 **Rastreamento em tempo real** - Acompanhamento do status do pedido com timeline
+- 💳 **Checkout completo** - Formulário de entrega e múltiplas formas de pagamento
+- 🔍 **Busca e filtros** - Pesquisa por nome, categoria, preço e restrições alimentares
+- ❤️ **Sistema de favoritos** - Salvar itens preferidos do menu
+- 📊 **Dashboard de estatísticas** - Métricas de pedidos, pontos e histórico
+- 🔔 **Notificações em tempo real** - Toast notifications para ações do usuário
+- 💾 **Persistência local** - Dados salvos com localStorage simulando SQLite
+- 🎯 **Promoções e combos** - Sistema de descontos e ofertas especiais
+- 📱 **Design responsivo** - Interface otimizada para desktop e mobile
+- 🎨 **UI moderna** - Design glassmorphism com gradientes e animações
+- 🚚 **Sistema de entrega** - Cálculo de frete e tempo estimado por região
+
 ## 🛠️ Como Executar
 
 1. Clone o repositório:
@@ -215,6 +232,23 @@ portfolio/
 - ✅ **UX moderna** - Transições suaves, feedback visual e badges dinâmicos
 - ✅ **Segurança simulada** - Processo de pagamento seguro e protegido
 - ✅ **Persistência de estado** - Carrinho e favoritos mantidos durante navegação
+
+### BurgerHub - Sistema de Hamburgueria
+- ✅ **Menu digital completo** - Cardápio interativo com categorias e filtros
+- ✅ **Customização de hambúrgueres** - Builder para personalizar ingredientes
+- ✅ **Sistema de pedidos** - Carrinho inteligente com cálculo automático
+- ✅ **Programa de fidelidade** - Níveis Bronze, Silver, Gold e Platinum
+- ✅ **Rastreamento em tempo real** - Acompanhamento do status do pedido
+- ✅ **Checkout completo** - Formulário de entrega e formas de pagamento
+- ✅ **Busca e filtros avançados** - Por categoria, preço e restrições alimentares
+- ✅ **Sistema de favoritos** - Salvar itens preferidos do menu
+- ✅ **Notificações em tempo real** - Toast notifications para feedback
+- ✅ **Persistência local** - Dados salvos simulando banco SQLite
+- ✅ **Promoções e combos** - Sistema de descontos e ofertas especiais
+- ✅ **Interface responsiva** - Design otimizado para desktop e mobile
+- ✅ **UI moderna** - Glassmorphism com gradientes e animações
+- ✅ **Sistema de entrega** - Cálculo de frete e tempo por região
+- ✅ **Dashboard de estatísticas** - Métricas de pedidos e pontos
 
 ## 📞 Contato
 
