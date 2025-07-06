@@ -20,6 +20,17 @@ Portfólio pessoal desenvolvido por Fabio Ferreira de Araujo, showcasing projeto
 - Interface responsiva e moderna
 - Integração com API de criptomoedas
 
+### 2. Gerenciador de Tarefas (Todo App)
+- ✅ **Criação e edição de tarefas** com título, descrição, prioridade e categoria
+- 📊 **Dashboard com estatísticas** em tempo real (total, concluídas, pendentes, alta prioridade)
+- 🔍 **Sistema de filtros avançado** por status, prioridade, categoria e busca textual
+- 📈 **Barra de progresso** dinâmica baseada nas tarefas concluídas
+- 🏷️ **Categorização automática** com contadores no painel lateral
+- 📅 **Ordenação flexível** por data, prioridade ou status
+- 💾 **Persistência local** com localStorage
+- 🎨 **Interface moderna** com Tailwind CSS e ícones Lucide
+- 📱 **Design responsivo** para todos os dispositivos
+
 ## 🛠️ Como Executar
 
 1. Clone o repositório:
@@ -53,13 +64,20 @@ http://localhost:5173
 portfolio/
 ├── src/
 │   ├── components/
-│   │   └── crypto/
-│   │       ├── CryptoDashboard.jsx
-│   │       └── CryptoChart.jsx
+│   │   ├── crypto/
+│   │   │   ├── CryptoDashboard.jsx
+│   │   │   └── CryptoChart.jsx
+│   │   └── todo/
+│   │       ├── TodoApp.jsx
+│   │       ├── TodoItem.jsx
+│   │       ├── TodoForm.jsx
+│   │       └── TodoFilters.jsx
 │   ├── hooks/
-│   │   └── useCrypto.js
+│   │   ├── useCrypto.js
+│   │   └── useTodos.js
 │   ├── services/
-│   │   └── cryptoAPI.js
+│   │   ├── cryptoAPI.js
+│   │   └── todoService.js
 │   ├── App.jsx
 │   └── main.jsx
 ├── public/
@@ -68,11 +86,29 @@ portfolio/
 
 ## 🎯 Funcionalidades
 
-- ✅ Design responsivo
-- ✅ Navegação suave
-- ✅ Dashboard de criptomoedas interativo
-- ✅ Gráficos em tempo real
-- ✅ Interface moderna e intuitiva
+### Gerais
+- ✅ Design responsivo e moderno
+- ✅ Navegação suave entre páginas
+- ✅ Interface intuitiva com Tailwind CSS
+- ✅ Ícones modernos com Lucide React
+
+### Dashboard de Criptomoedas
+- ✅ Acompanhamento de preços em tempo real
+- ✅ Gráficos interativos com Recharts
+- ✅ Integração com API externa
+- ✅ Visualização de tendências
+
+### Gerenciador de Tarefas
+- ✅ **CRUD completo** - Criar, ler, atualizar e deletar tarefas
+- ✅ **Sistema de prioridades** - Baixa, Média, Alta
+- ✅ **Categorização** - Organização por categorias personalizadas
+- ✅ **Filtros avançados** - Por status, prioridade, categoria e busca
+- ✅ **Ordenação** - Por data, prioridade ou alfabética
+- ✅ **Estatísticas em tempo real** - Dashboard com métricas
+- ✅ **Progresso visual** - Barra de progresso dinâmica
+- ✅ **Persistência de dados** - Armazenamento local
+- ✅ **Interface responsiva** - Funciona em todos os dispositivos
+- ✅ **Feedback visual** - Estados de hover, loading e transições
 
 ## 📞 Contato
 
