@@ -59,6 +59,23 @@ Portfólio pessoal desenvolvido por Fabio Ferreira de Araujo, showcasing projeto
 - 📧 **Newsletter** - Sistema de inscrição para receber atualizações
 - 🏆 **Ranking de popularidade** - Artigos mais visualizados e recentes
 
+### 5. TechStore - E-commerce Completo
+- 🛒 **Loja virtual completa** - Sistema de e-commerce moderno e funcional
+- 📱 **Interface responsiva** - Design adaptável com Tailwind CSS
+- 🛍️ **Catálogo de produtos** - 10 produtos reais com imagens de alta qualidade
+- 🏷️ **Sistema de categorias** - Eletrônicos, Wearables, Smart Home, Acessórios
+- ⭐ **Avaliações e reviews** - Sistema de estrelas e comentários dos usuários
+- 🔍 **Busca e filtros** - Pesquisa por nome, filtros por categoria e preço
+- 🛒 **Carrinho de compras** - Adição, remoção e controle de quantidade
+- 💳 **Checkout em 3 etapas** - Informações pessoais, pagamento e confirmação
+- ❤️ **Sistema de favoritos** - Salvar produtos preferidos
+- 📊 **Gestão de estoque** - Status em tempo real e alertas de disponibilidade
+- 💰 **Sistema de preços** - Descontos, promoções e parcelamento
+- 🚚 **Cálculo de frete** - Frete grátis acima de R$ 99
+- 🔒 **Segurança** - Simulação de pagamento seguro
+- 📈 **Badges dinâmicos** - "Novo", descontos, últimas unidades
+- 🎨 **UX moderna** - Transições suaves e feedback visual
+
 ## 🛠️ Como Executar
 
 1. Clone o repositório:
@@ -105,16 +122,24 @@ portfolio/
 │   │   │   ├── CalculatorDisplay.jsx
 │   │   │   ├── CalculatorButtons.jsx
 │   │   │   └── CalculatorHistory.jsx
-│   │   └── blog/
-│   │       ├── BlogApp.jsx
-│   │       ├── BlogPost.jsx
-│   │       ├── BlogSidebar.jsx
-│   │       └── BlogCategories.jsx
+│   │   ├── blog/
+│   │   │   ├── BlogApp.jsx
+│   │   │   ├── BlogPost.jsx
+│   │   │   ├── BlogSidebar.jsx
+│   │   │   └── BlogCategories.jsx
+│   │   └── ecommerce/
+│   │       ├── EcommerceApp.jsx
+│   │       ├── ProductGrid.jsx
+│   │       ├── ProductDetail.jsx
+│   │       ├── CategoryFilter.jsx
+│   │       ├── Cart.jsx
+│   │       └── Checkout.jsx
 │   ├── hooks/
 │   │   ├── useCrypto.js
 │   │   ├── useTodos.js
 │   │   ├── useCalculator.js
-│   │   └── useBlog.js
+│   │   ├── useBlog.js
+│   │   └── useEcommerce.js
 │   ├── services/
 │   │   ├── cryptoAPI.js
 │   │   └── todoService.js
@@ -173,6 +198,23 @@ portfolio/
 - ✅ **Compartilhamento social** - Funcionalidade de compartilhar posts
 - ✅ **Design responsivo** - Interface otimizada para todos os dispositivos
 - ✅ **Newsletter integrada** - Sistema de inscrição para atualizações
+
+### TechStore - E-commerce
+- ✅ **Loja virtual completa** - Sistema de e-commerce moderno e funcional
+- ✅ **Catálogo de produtos** - 10 produtos reais com imagens de alta qualidade
+- ✅ **Sistema de categorias** - Eletrônicos, Wearables, Smart Home, Acessórios
+- ✅ **Busca e filtros** - Pesquisa por nome, filtros por categoria e preço
+- ✅ **Carrinho de compras** - Adição, remoção e controle de quantidade
+- ✅ **Sistema de favoritos** - Salvar e gerenciar produtos preferidos
+- ✅ **Checkout completo** - Processo em 3 etapas (dados, pagamento, confirmação)
+- ✅ **Gestão de estoque** - Status em tempo real e alertas de disponibilidade
+- ✅ **Sistema de preços** - Descontos, promoções e parcelamento sem juros
+- ✅ **Cálculo de frete** - Frete grátis acima de R$ 99
+- ✅ **Avaliações e reviews** - Sistema de estrelas e feedback dos usuários
+- ✅ **Interface responsiva** - Design adaptável para todos os dispositivos
+- ✅ **UX moderna** - Transições suaves, feedback visual e badges dinâmicos
+- ✅ **Segurança simulada** - Processo de pagamento seguro e protegido
+- ✅ **Persistência de estado** - Carrinho e favoritos mantidos durante navegação
 
 ## 📞 Contato
 
