@@ -31,6 +31,20 @@ Portfólio pessoal desenvolvido por Fabio Ferreira de Araujo, showcasing projeto
 - 🎨 **Interface moderna** com Tailwind CSS e ícones Lucide
 - 📱 **Design responsivo** para todos os dispositivos
 
+### 3. Calculadora Avançada
+- 🧮 **Modo Básico e Científico** - Alternância entre calculadora simples e científica
+- 🔢 **Operações básicas** - Adição, subtração, multiplicação, divisão, porcentagem
+- 📐 **Funções trigonométricas** - sin, cos, tan (em graus)
+- 📊 **Funções logarítmicas** - ln (logaritmo natural), log (base 10)
+- ⚡ **Potências e raízes** - x², x³, xʸ, √, ∛
+- 🔢 **Constantes matemáticas** - π (pi), e (euler)
+- 🧠 **Funções especiais** - fatorial (!), inverso (1/x), mudança de sinal (±)
+- 💾 **Sistema de memória** - MC, MR, M+, M- para armazenar valores
+- 📜 **Histórico completo** - Registro de todos os cálculos com timestamp
+- 📊 **Estatísticas** - Total de cálculos realizados e último resultado
+- 🎨 **Interface moderna** - Design glassmorphism com gradientes
+- 📱 **Layout responsivo** - Funciona perfeitamente em desktop e mobile
+
 ## 🛠️ Como Executar
 
 1. Clone o repositório:
@@ -67,14 +81,20 @@ portfolio/
 │   │   ├── crypto/
 │   │   │   ├── CryptoDashboard.jsx
 │   │   │   └── CryptoChart.jsx
-│   │   └── todo/
-│   │       ├── TodoApp.jsx
-│   │       ├── TodoItem.jsx
-│   │       ├── TodoForm.jsx
-│   │       └── TodoFilters.jsx
+│   │   ├── todo/
+│   │   │   ├── TodoApp.jsx
+│   │   │   ├── TodoItem.jsx
+│   │   │   ├── TodoForm.jsx
+│   │   │   └── TodoFilters.jsx
+│   │   └── calculator/
+│   │       ├── CalculatorApp.jsx
+│   │       ├── CalculatorDisplay.jsx
+│   │       ├── CalculatorButtons.jsx
+│   │       └── CalculatorHistory.jsx
 │   ├── hooks/
 │   │   ├── useCrypto.js
-│   │   └── useTodos.js
+│   │   ├── useTodos.js
+│   │   └── useCalculator.js
 │   ├── services/
 │   │   ├── cryptoAPI.js
 │   │   └── todoService.js
@@ -109,6 +129,18 @@ portfolio/
 - ✅ **Persistência de dados** - Armazenamento local
 - ✅ **Interface responsiva** - Funciona em todos os dispositivos
 - ✅ **Feedback visual** - Estados de hover, loading e transições
+
+### Calculadora Avançada
+- ✅ **Dois modos de operação** - Básico e Científico
+- ✅ **Operações matemáticas** - Básicas e avançadas
+- ✅ **Funções trigonométricas** - sin, cos, tan em graus
+- ✅ **Funções logarítmicas** - Logaritmo natural e base 10
+- ✅ **Potências e raízes** - Quadrado, cubo, potência customizada, raízes
+- ✅ **Constantes matemáticas** - π (pi) e e (euler)
+- ✅ **Sistema de memória** - Armazenar e recuperar valores
+- ✅ **Histórico completo** - Registro de todos os cálculos
+- ✅ **Interface moderna** - Design glassmorphism com gradientes
+- ✅ **Responsividade total** - Funciona em desktop e mobile
 
 ## 📞 Contato
 
