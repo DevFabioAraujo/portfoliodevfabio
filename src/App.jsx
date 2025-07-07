@@ -6,6 +6,7 @@ import CalculatorApp from './components/calculator/CalculatorApp'
 import BlogApp from './components/blog/BlogApp'
 import EcommerceApp from './components/ecommerce/EcommerceApp'
 import BurgerApp from './components/burger/BurgerApp'
+import MattressApp from './components/mattress/MattressApp'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/blog" element={<BlogApp />} />
         <Route path="/ecommerce" element={<EcommerceApp />} />
         <Route path="/burger" element={<BurgerApp />} />
+        <Route path="/mattress" element={<MattressApp />} />
       </Routes>
     </Router>
   )
@@ -334,6 +336,35 @@ function HomePage() {
                   </Link>
                   <a 
                     href="https://github.com/fabioferreira/burgerhub" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-gray-600 hover:text-gray-800 font-semibold transition-colors text-sm sm:text-base"
+                  >
+                    Código
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Sleep House - Mattress System */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="h-40 sm:h-48 bg-gradient-to-r from-blue-500 to-indigo-600 flex items-center justify-center">
+                <div className="text-white text-4xl">🛏️</div>
+              </div>
+              <div className="p-4 sm:p-6">
+                <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">Sleep House</h3>
+                <p className="text-sm sm:text-base text-gray-600 mb-4">
+                  Sistema completo de controle de estoque de colchões com showroom profissional, gerenciamento de inventário e alertas de estoque baixo.
+                </p>
+                <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
+                  <Link 
+                    to="/mattress"
+                    className="text-blue-600 hover:text-blue-800 font-semibold transition-colors text-sm sm:text-base"
+                  >
+                    Ver Demo
+                  </Link>
+                  <a 
+                    href="https://github.com/fabioferreira/sleephouse" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-gray-600 hover:text-gray-800 font-semibold transition-colors text-sm sm:text-base"
